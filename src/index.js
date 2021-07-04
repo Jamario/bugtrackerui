@@ -3,9 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
+import Routes from './infrastructure/routes';
+
+import InitializeFirebase from './infrastructure/firebase';
+
+InitializeFirebase();
+
 ReactDOM.render(
   <React.StrictMode>
-    <div>Hello World</div>
+    <Routes />
   </React.StrictMode>,
   document.getElementById('root')
 );
