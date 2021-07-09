@@ -5,11 +5,14 @@ import {
     Route
 } from 'react-router-dom';
 
+// pages
+import Login from '../pages/auth/login';
+
 const RouterMaps = () => (
     <Router>
         <Switch>
             <Route path='/login'>
-                <div>Login</div>
+                <Login />
             </Route>
             <Route path='/register'>
                 <div>Register</div>

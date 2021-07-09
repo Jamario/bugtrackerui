@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container > input {
+    width: 100%;
+}
+
+.label {
+    text-transform: capitalize;
+}
